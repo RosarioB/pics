@@ -1,3 +1,19 @@
+# Application introduction
+
+This React application makes use of the Unspash API to search images and display them on the screen.
+
+![alt text](https://github.com/RosarioB/pics/blob/main/github_images/pics.png?raw=true)
+
+## Project setup
+
+Create a file `.env` in the root with:
+
+```
+REACT_APP_UNSPLASH_ACCESS_KEY=<your_unsplash_access_key>
+```   
+
+Then download the dependecies with `npm install`     
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +84,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Acknowledgments
+
+This code is adapted from the course [Modern React with Redux](https://www.udemy.com/course/react-redux) by Stephen Grider, with some modifications.
