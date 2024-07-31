@@ -3,7 +3,7 @@ import SearchBar from "./components/SearchBar";
 import ImageList from './components/ImageList';
 import searchImages from "./api";
 
-const App = () => {
+function App() {
   const [images, setImages] = useState([]);
 
   const handleSubmit = async (term) => {

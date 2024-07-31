@@ -1,7 +1,7 @@
 import "./SearchBar.css";
 import { useState } from "react";
 
-const SearchBar = ({ onSubmit }) => {
+function SearchBar({ onSubmit }) {
   const [term, setTerm] = useState("");
 
   const handleFormSubmit = (event) => {
